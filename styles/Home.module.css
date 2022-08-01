@@ -42,7 +42,8 @@
 .title {
   margin: 0;
   line-height: 1.15;
-  font-size: 4rem;
+  font-size: 2rem;
+  margin-bottom: 2rem;
 }
 
 .title,
@@ -51,9 +52,20 @@
 }
 
 .description {
-  margin: 4rem 0;
+  margin: 2rem 0;
   line-height: 1.5;
   font-size: 1.5rem;
+}
+
+.messages {
+  margin: 2rem 1rem;
+  height: 35rem;
+  overflow-y: scroll;
+  min-width: 15rem;
+}
+
+.messages::-webkit-scrollbar {
+  display: none;
 }
 
 .code {
@@ -70,7 +82,6 @@
   align-items: center;
   justify-content: center;
   flex-wrap: wrap;
-  max-width: 800px;
 }
 
 .card {
@@ -82,7 +93,10 @@
   border: 1px solid #eaeaea;
   border-radius: 10px;
   transition: color 0.15s ease, border-color 0.15s ease;
-  max-width: 300px;
+}
+
+.theme {
+  margin-bottom: 2rem;
 }
 
 .card:hover,
@@ -104,8 +118,8 @@
 }
 
 .logo {
-  height: 1em;
-  margin-left: 0.5rem;
+  margin-left: 0.2rem;
+  margin-top: 0.4rem;
 }
 
 @media (max-width: 600px) {
